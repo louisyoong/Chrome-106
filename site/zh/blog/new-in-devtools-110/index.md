@@ -14,7 +14,7 @@ tags:
 draft: true
 ---
 
-*感谢 [Poong Zui Yong](https://www.linkedin.com/in/zui-yong-poong-1b507b14/) 提供的翻译*
+*感谢 [Yoong Sin Yi (Louis)](https://www.linkedin.com/in/louis-yoong-a2370ab7/) 提供的翻译*。
 
 {% Partial 'devtools/banner.md' %}
 
@@ -27,12 +27,16 @@ draft: true
 
 
 <!-- ## Clearing Performance Panel on reload {: #perf } -->
+## 重载时清除性能面板
 
 <!-- The **Performance** panel now clears both the screenshot and trace when you click the **Start profiling and reload page** button. -->
+当点击 **开始分析和重新加载页面** 按钮时，**性能** 面板现在会同时清除屏幕截图和跟踪。
 
 <!-- Previously, the **Performance** panel displayed a timeline with screenshots from previous recordings. This made it difficult to see when the actual measurement started. The panel now always navigates to the `about:blank` page first to guarantee that the recording begins with a blank trace. This aligns with the **Performance Insights** panel which already did the same. -->
+以前，**性能** 面板会显示一个时间轴，其中包含以前录制的屏幕截图。 这使得我们很难看到实际测量是什么时候开始的。 现在面板总是先导航到 "about:blank "页面，以保证记录从一个空白跟踪开始。这与 **性能洞察力** 面板一致，后者已经做到了这一点。
 
 {% Img src="image/dPDCek3EhZgLQPGtEG3y0fTn4v82/JVXCt6hKIxMtf0tCLWwh.png", alt="Clearing Performance Panel on reload.", width="800", height="548" %}
+{% Img src="image/dPDCek3EhZgLQPGtEG3y0fTn4v82/JVXCt6hKIxMtf0tCLWwh.png", alt="重载时清除性能面板.", width="800", height="548" %}
 
 
 {# https://chromium.googlesource.com/devtools/devtools-frontend/+/0a301d29d165f17a6eceb1adf91bff0c1c2e07eb #}
